@@ -1,6 +1,6 @@
 def prime?(num)
   # check if num is less than 2.
-  false if num < 1
+  false if num < 0
   
   # check if num is divisible by any number
   # between 2 to (num - 1)
